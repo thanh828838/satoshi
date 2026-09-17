@@ -1,0 +1,12 @@
+{
+  "name": "Sky Blue Satoshi",
+  "description": "Theme xanh da trời, có ảnh nền và font Satoshi",
+  "authors": [
+    {
+      "name": "Bạn",
+      "id": "000000000000000000"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "index.js"
+}
