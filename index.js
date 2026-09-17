@@ -11,12 +11,9 @@ module.exports = {
     const style = document.createElement("style");
     style.id = "sky-blue-theme";
     style.innerHTML = `
-      /* Đổi font toàn bộ app */
       * {
         font-family: 'Satoshi', sans-serif !important;
       }
-
-      /* Bảng màu xanh da trời */
       :root {
         --brand-experiment: #4A90D9 !important;
         --brand-experiment-560: #3A7BC8 !important;
@@ -27,16 +24,12 @@ module.exports = {
         --header-primary: #A8D0FF !important;
         --interactive-normal: #7EB8E8 !important;
       }
-
-      /* Ảnh nền toàn app */
       .theme-dark {
         background-image: url('https://i.ibb.co/YFhVBpvj/IMG20260121174656.jpg') !important;
         background-size: cover !important;
         background-position: center !important;
         background-attachment: fixed !important;
       }
-
-      /* Làm mờ khung để thấy nền */
       .theme-dark .container-1D34oG,
       .theme-dark .chatContent-a9vAAp,
       .theme-dark .sidebar-1tnWFu {
