@@ -1,48 +1,25 @@
 module.exports = {
   onLoad: () => {
-    // Nhúng font Satoshi
-    const fontLink = document.createElement("link");
-    fontLink.href = "https://fonts.cdnfonts.com/css/satoshi";
-    fontLink.rel = "stylesheet";
-    fontLink.id = "satoshi-font";
-    document.head.appendChild(fontLink);
-
-    // Ghi đè màu + ảnh nền
     const style = document.createElement("style");
-    style.id = "sky-blue-theme";
+    style.id = "xanh-theme";
     style.innerHTML = `
-      * {
-        font-family: 'Satoshi', sans-serif !important;
+      /* Đổi nền toàn bộ app sang xanh đậm */
+      body, .theme-dark, .bg-base-primary, .bg-base-secondary, .chatContent-a9vAAp, .sidebar-1tnWFu, .container-1D34oG {
+        background-color: #1A3A5C !important;
       }
-      :root {
-        --brand-experiment: #4A90D9 !important;
-        --brand-experiment-560: #3A7BC8 !important;
-        --background-primary: #0D1B2A !important;
-        --background-secondary: #1B2A3B !important;
-        --background-tertiary: #2A3F55 !important;
-        --text-normal: #D6E8FF !important;
-        --header-primary: #A8D0FF !important;
-        --interactive-normal: #7EB8E8 !important;
+      /* Đổi màu chữ sang xanh nhạt */
+      .theme-dark .text-normal, .theme-dark span, .theme-dark div {
+        color: #E0F0FF !important;
       }
-      .theme-dark {
-        background-image: url('https://i.ibb.co/YFhVBpvj/IMG20260121174656.jpg') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: fixed !important;
-      }
-      .theme-dark .container-1D34oG,
-      .theme-dark .chatContent-a9vAAp,
-      .theme-dark .sidebar-1tnWFu {
-        background-color: rgba(13, 27, 42, 0.75) !important;
-        backdrop-filter: blur(8px) !important;
+      /* Đổi màu thanh nhập tin nhắn */
+      .theme-dark .textArea-2CLwUE, .theme-dark .scrollableContainer-15eg7h {
+        background-color: #2A4B7C !important;
       }
     `;
     document.head.appendChild(style);
   },
   onUnload: () => {
-    const style = document.getElementById("sky-blue-theme");
-    const font = document.getElementById("satoshi-font");
+    const style = document.getElementById("xanh-theme");
     if (style) style.remove();
-    if (font) font.remove();
   }
 };
