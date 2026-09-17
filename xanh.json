@@ -1,0 +1,26 @@
+{
+  "name": "Xanh",
+  "description": "Nen xanh",
+  "authors": [{ "name": "Thanh" }],
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#0D1B2A"],
+    "BACKGROUND_SECONDARY": ["#1B2A3B"],
+    "BACKGROUND_TERTIARY": ["#2A3F55"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#0D1B2A"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#1B2A3B"],
+    "CHAT_BACKGROUND": ["#0D1B2A"],
+    "TEXT_NORMAL": ["#D6E8FF"],
+    "HEADER_PRIMARY": ["#A8D0FF"],
+    "INTERACTIVE_NORMAL": ["#7EB8E8"]
+  },
+  "rawColors": {
+    "BRAND_500": "#4A90D9",
+    "BRAND_560": "#3A7BC8"
+  },
+  "plus": {
+    "version": 0,
+    "customOverlays": true,
+    "mentionLineColor": "#4A90D9"
+  },
+  "spec": 2
+}
