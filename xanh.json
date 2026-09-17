@@ -3,24 +3,24 @@
   "description": "Nen xanh",
   "authors": [{ "name": "Thanh" }],
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#0D1B2A"],
-    "BACKGROUND_SECONDARY": ["#1B2A3B"],
-    "BACKGROUND_TERTIARY": ["#2A3F55"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#0D1B2A"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#1B2A3B"],
-    "CHAT_BACKGROUND": ["#0D1B2A"],
-    "TEXT_NORMAL": ["#D6E8FF"],
-    "HEADER_PRIMARY": ["#A8D0FF"],
-    "INTERACTIVE_NORMAL": ["#7EB8E8"]
+    "BACKGROUND_PRIMARY": ["#1A3A5C"],
+    "BACKGROUND_SECONDARY": ["#2A4B7C"],
+    "BACKGROUND_TERTIARY": ["#0D1B2A"],
+    "CHAT_BACKGROUND": ["#1A3A5C"],
+    "TEXT_NORMAL": ["#E0F0FF"],
+    "HEADER_PRIMARY": ["#FFFFFF"]
   },
   "rawColors": {
-    "BRAND_500": "#4A90D9",
-    "BRAND_560": "#3A7BC8"
+    "BG_BASE_PRIMARY": "#1A3A5C",
+    "BG_BASE_SECONDARY": "#2A4B7C",
+    "PRIMARY_600": "#1A3A5C",
+    "PRIMARY_630": "#2A4B7C",
+    "PRIMARY_660": "#0D1B2A",
+    "PRIMARY_700": "#0D1B2A"
   },
   "plus": {
     "version": 0,
-    "customOverlays": true,
-    "mentionLineColor": "#4A90D9"
+    "customOverlays": true
   },
   "spec": 2
 }
