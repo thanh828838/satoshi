@@ -1,0 +1,31 @@
+{
+  "name": "Sky Blue",
+  "description": "Theme xanh da trời, có ảnh nền và font Satoshi",
+  "authors": [{ "name": "Bạn" }],
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#0D1B2A"],
+    "BACKGROUND_SECONDARY": ["#1B2A3B"],
+    "BACKGROUND_TERTIARY": ["#2A3F55"],
+    "TEXT_NORMAL": ["#D6E8FF"],
+    "HEADER_PRIMARY": ["#A8D0FF"],
+    "INTERACTIVE_NORMAL": ["#7EB8E8"],
+    "CHAT_BACKGROUND": ["#0D1B2A"]
+  },
+  "rawColors": {
+    "BRAND_500": "#4A90D9",
+    "BRAND_560": "#3A7BC8"
+  },
+  "background": {
+    "blur": 8,
+    "url": "https://i.ibb.co/YFhVBpvj/IMG20260121174656.jpg",
+    "alpha": 0.75
+  },
+  "fonts": {
+    "ggsans-Normal": "https://fonts.cdnfonts.com/css/satoshi",
+    "ggsans-Bold": "https://fonts.cdnfonts.com/css/satoshi"
+  },
+  "plus": {
+    "version": 0
+  },
+  "spec": 2
+}
